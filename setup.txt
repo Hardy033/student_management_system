@@ -2,6 +2,7 @@ Install latest version of python and add to path
 open project in vscode 
 open terminal and type follow command
 -pip install virtualenv
+-virtualenv env
 -cd env/Scropts
 -activate (if it is not work then ./activate or ./activate.bat
 -cd ../..
