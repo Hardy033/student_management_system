@@ -1,0 +1,16 @@
+Install latest version of python and add to path
+open project in vscode 
+open terminal and type follow command
+-pip install virtualenv
+-cd env/Scropts
+-activate (if it is not work then ./activate or ./activate.bat
+-cd ../..
+-pip install django==4.1.1
+-pip install Pillow
+-pip install django-active-link
+-python manage.py makemigrations
+-python manage.py createsuperuser
+-python manage.py runserver
+
+it will setup this project
+for databaseurl=http://127.0.0.1:8000/admin/
